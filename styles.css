@@ -1,0 +1,132 @@
+/*Elements*/
+
+body {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://papers.co/wallpaper/papers.co-at43-apple-mac-white-logo-minimal-art-illustration-27-wallpaper.jpg");
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 2%;
+}
+
+h1 {
+    color: #e31c3f;
+    text-align: center
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gainsboro !important;
+    font-size: 12px !important;
+    font-style: oblique !important;
+    font-weight: bold !important;
+}
+
+header {
+    border-bottom: 2px solid black;
+    /* border-top: 2px solid black; */
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2.5%;
+    text-align: center;
+    background: none !important;
+}
+
+aside p {
+    border: none !important;
+    background: none !important;
+    color: black;
+    font-style: oblique;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    background-color: #e31c3f;
+    color: white;
+}
+
+
+/*Classes*/
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+.video iframe {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    padding-top: 2%;
+}
+
+.embed_tw {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+}
+
+.logoHolb img {
+    width: 200px;
+    margin-left: -0.4%;
+}
+
+.fa-instagram {
+    background: #d6acca;
+    color: black;
+}
+
+
+/* Ids*/
+
+#quoteimg {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+
+#quote {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 20px;
+    margin-left: 16%;
+}
+
+#smart_thumbnail {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#holb_tw {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
